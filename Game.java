@@ -33,7 +33,7 @@ public class Game {
     private int score = 0;
 
     Sprite player = new Sprite(300,750,40,40,"player", Color.TRANSPARENT,lev);
-    Sprite endLine = new Sprite(0, 5*-200, 600, 3, "end", Color.TRANSPARENT,lev);
+    Sprite endLine = new Sprite(0, 13*-200, 600, 3, "end", Color.TRANSPARENT,lev);
 
 
     Sprite plLife = new Sprite(10, 20, 300, 10, "life", Color.ORANGE,lev);
@@ -145,7 +145,7 @@ public class Game {
                     try {
                         //lev = 1;
                         player = new Sprite(300,750,40,40,"player", Color.TRANSPARENT,lev);
-                        endLine = new Sprite(0, 5*-200, 600, 3, "end", Color.TRANSPARENT,lev);
+                        endLine = new Sprite(0, 13*-200, 600, 3, "end", Color.TRANSPARENT,lev);
                         plLife = new Sprite(10, 20, 300, 10, "life", Color.ORANGE,lev);
                     } catch (FileNotFoundException ex) {
                         ex.printStackTrace();
