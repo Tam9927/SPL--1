@@ -35,13 +35,13 @@ public class Sprite extends Rectangle {
             villain = new FileInputStream("d:\\Users\\Tahmid\\Documents\\sample\\icons/alien2.png");
         }
         if(lev==3){
-            villain = new FileInputStream("d:\\Users\\Tahmid\\Documents\\sample\\icons/alien3.png");
+            villain = new FileInputStream("d:\\Users\\Tahmid\\Documents\\sample\\icons/alien6.png");
         }
         if(lev==4){
-            villain = new FileInputStream("d:\\Users\\Tahmid\\Documents\\sample\\icons/alien4.png");
+            villain = new FileInputStream("d:\\Users\\Tahmid\\Documents\\sample\\icons/alien7.png");
         }
         if(lev==5){
-            villain = new FileInputStream("d:\\Users\\Tahmid\\Documents\\sample\\icons/alien3.png");
+            villain = new FileInputStream("d:\\Users\\Tahmid\\Documents\\sample\\icons/alien4.png");
         }
         if(type.equals("enemy")){
             img = new Image(villain);
