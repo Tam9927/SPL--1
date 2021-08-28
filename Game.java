@@ -176,7 +176,7 @@ public class Game {
                 Stage stage = new Stage();
 
                 if (lev == 5) {
-                    Text txt = new Text("Score: "+score+".Congratulations!! You finished the game,  Return to main menu.");
+                    Text txt = new Text("Score: "+score+".Congratulations!!Return to main menu.");
                     Font font = Font.font("verdana", FontWeight.BOLD, FontPosture.REGULAR, 12);
                     txt.setFont(font);
 
@@ -280,6 +280,9 @@ public class Game {
             switch(e.getCode()){
                 case A : player.moveLeft(); break;
                 case D : player.moveRight(); break;
+                case X: player.moveDown(); break;
+                case W : player.moveUp(); break;
+
                 case SPACE :
                     Sprite bullet = null;
                     try {
